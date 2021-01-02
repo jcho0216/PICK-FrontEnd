@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<script>
+    //concat
+    let a = ['seoul', 'busan', 'daegu'];
+    let b = ['daejeon', 'sejong'];
+
+    let c = a.concat(b);
+    document.write("concat: ");
+    document.write(c);
+
+    //map
+    let d = ['1', '2', '3'];
+    let e = d.map(x => x * 10);
+
+    document.write('<br> map: ')
+    document.write(e);
+
+    //filter
+    let f = ['lmao', 'omg', 'wassup'];
+    let g = f.filter(word => word.length > 3);
+    document.write('<br> filter: ');
+    document.write(g);
+
+</script>
+</body>
+</html>
